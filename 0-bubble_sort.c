@@ -8,6 +8,35 @@
  */
 void bubble_sort(int *array, size_t size)
 {
+	size_t i, j, swap;
 
+	for (i = 1; i < size; i++)
+	{
+		swap = 0;
+		for (j = 0; j < size - i; j++)
+		{
+			if (array[j] > array[j + 1])
+			{
+				swap_values(&array[j], &array[j + 1]);
+				print_array(array, size);
+				swap = 1;
+			}
+		}
+		if (!swap)
+			break;
+	}
+}
 
+/**
+ * swap_values - This function swaps values in the array
+ *
+ * @v1: a pointer to the value to be swapped
+ * @v2: a pointer to th value to be swapped
+ */
+
+void swap_values(int *v1, int *v2)
+{
+	*v1 = *v1 + *v2;
+	*v2 = *v1 - *v2;
+	*v1 = *v1 - *v2;
 }

@@ -1,0 +1,8 @@
+*
+!/*.c
+!/.gitignore
+!/*.h
+!/*.md
+*main.c
+!/*-O
+!/LICENSE

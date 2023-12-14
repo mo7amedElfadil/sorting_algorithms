@@ -19,9 +19,9 @@
  */
 typedef struct listint_s
 {
-    const int n;
-    struct listint_s *prev;
-    struct listint_s *next;
+	const int n;
+	struct listint_s *prev;
+	struct listint_s *next;
 } listint_t;
 
 
@@ -38,4 +38,7 @@ void quick_sort(int *array, size_t size);
 
 /*_____________ Helper Functions _____________ */
 void swap_values(int *v1, int *v2);
+
+void swap_nodes(listint_t **node, listint_t **head);
+listint_t *create_listint(const int *array, size_t size);
 #endif

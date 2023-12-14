@@ -26,3 +26,18 @@ void selection_sort(int *array, size_t size)
 		}
 	}
 }
+
+
+/**
+ * swap_values - This function swaps values in the array
+ *
+ * @v1: a pointer to the value to be swapped
+ * @v2: a pointer to th value to be swapped
+ */
+
+void swap_values(int *v1, int *v2)
+{
+	*v1 = *v1 + *v2;
+	*v2 = *v1 - *v2;
+	*v1 = *v1 - *v2;
+}

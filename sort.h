@@ -41,4 +41,7 @@ void swap_values(int *v1, int *v2);
 
 void swap_nodes(listint_t **node, listint_t **head);
 listint_t *create_listint(const int *array, size_t size);
+
+int partition(int *array, int low, int high, size_t size);
+void quick(int *array, int low, int high, size_t size);
 #endif

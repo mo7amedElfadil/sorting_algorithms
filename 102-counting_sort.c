@@ -13,6 +13,8 @@ void counting_sort(int *array, size_t size)
 {
 	int i, max, *count_array, *output_array;
 
+	if (size <= 1)
+		return;
 	max = find_max(array, size) + 1;
 	count_array = malloc(sizeof(int) * (max));
 	if (!count_array)

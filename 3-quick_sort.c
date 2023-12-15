@@ -4,7 +4,7 @@
  * quick_sort - Sorts an array of integers in ascending order using
  *		The quick sort algorithm and implementing the Lomuto partitioning scheme
  * Note: each time 2 elements are swapped, the array is printed
- *		 The pivot will always be the last element of the partition being sorted
+ *	 The pivot will always be the last element of the partition being sorted
  * @array: pointer to the array of integers to be sorted
  * @size: size of the array
  */
@@ -14,13 +14,12 @@ void quick_sort(int *array, size_t size)
 }
 
 /**
- * quick - This function sorts the list quickly
- * 
+ * quick - This function sorts the list according to the quick sort algorithm
+ *
  * @array: pointer to the array of integers to be sorted
  * @low: the lowest bound of the array
  * @high: the highest bound of the array
  * @size: the size of the array
-
  */
 
 void quick(int *array, int low, int high, size_t size)
@@ -36,11 +35,13 @@ void quick(int *array, int low, int high, size_t size)
 
 /**
  * partition - This function places the pivot in it's correct position
- * 
+ *
  * @array: pointer to the array of integers to be sorted
  * @low: the lowest bound of the array
  * @high: the highest bound of the array
  * @size: the size of the array
+ *
+ * Return: the index of the of the pivot.
  */
 
 int partition(int *array, int low, int high, size_t size)

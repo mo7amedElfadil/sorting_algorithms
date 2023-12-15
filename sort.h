@@ -46,12 +46,21 @@ void quick(int *array, int low, int high, size_t size);
 /****** Shell sort ******/
 void shell_sort(int *array, size_t size);
 
-/*_____________ Helper Functions _____________ */
+/****** Cocktail Shaker sort ******/
+void cocktail_sort_list(listint_t **list);
+
+/****** Counting sort ******/
+void counting_sort(int *array, size_t size);
+int find_max(int *array, size_t size);
+
+/****** Merge sort ******/
+void merge_sort(int *array, size_t size);
+
+/*_____________ General Helper Functions _____________ */
 
 /****** Array Helpers ******/
 void print_array(const int *array, size_t size);
 void swap_values(int *v1, int *v2);
-
 
 /****** LinkedList Helpers ******/
 void print_list(const listint_t *list);

@@ -15,12 +15,11 @@ void quick_sort(int *array, size_t size)
 
 /**
  * quick - This function sorts the list quickly
- * 
+ *
  * @array: pointer to the array of integers to be sorted
  * @low: the lowest bound of the array
  * @high: the highest bound of the array
  * @size: the size of the array
-
  */
 
 void quick(int *array, int low, int high, size_t size)
@@ -36,11 +35,13 @@ void quick(int *array, int low, int high, size_t size)
 
 /**
  * partition - This function places the pivot in it's correct position
- * 
+ *
  * @array: pointer to the array of integers to be sorted
  * @low: the lowest bound of the array
  * @high: the highest bound of the array
  * @size: the size of the array
+ *
+ * Return: the index of the of the pivot.
  */
 
 int partition(int *array, int low, int high, size_t size)

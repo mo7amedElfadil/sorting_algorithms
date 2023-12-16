@@ -18,7 +18,6 @@ void cocktail_sort_list(listint_t **list)
 	{
 		swapped = 0;
 		cur = min;
-		printf("min = %i\n", min->n);
 		while (cur->next && cur->next != max)
 		{
 			if (cur->n > cur->next->n)

@@ -33,7 +33,7 @@ void cocktail_sort_list(listint_t **list)
 		if (!swapped)
 			break;
 		swapped = 0, max = cur, cur = max->prev;
-		while (cur->prev && cur->prev != min)
+		while (cur->prev && cur != min)
 		{
 			if (cur->n < cur->prev->n)
 			{

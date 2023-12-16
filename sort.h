@@ -56,6 +56,9 @@ int find_max(int *array, size_t size);
 /****** Merge sort ******/
 void merge_sort(int *array, size_t size);
 
+/****** Heap sort ******/
+void heap_sort(int *array, size_t size);
+void heapify(int *array, int n, int P, size_t size);
 /*_____________ General Helper Functions _____________ */
 
 /****** Array Helpers ******/

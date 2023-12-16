@@ -14,7 +14,7 @@ void cocktail_sort_list(listint_t **list)
 
 	if (!list || !*list || (!(*list)->next && !(*list)->prev))
 		return;
-	while (swapped)
+	while (swapped && max != min)
 	{
 		swapped = 0, cur = min;
 		while (cur->next && cur->next != max)

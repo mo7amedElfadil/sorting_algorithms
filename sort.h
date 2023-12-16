@@ -55,6 +55,10 @@ int find_max(int *array, size_t size);
 
 /****** Merge sort ******/
 void merge_sort(int *array, size_t size);
+void merging(int *array, int lo, int mid, int hi, int *output);
+void splitting(int *array, int lo, int hi, int *output);
+void copying_arrays(int *src, int *dest, int lo, int hi);
+void printing_sub(int *array, int lo, int hi, char *name);
 
 /****** Heap sort ******/
 void heap_sort(int *array, size_t size);

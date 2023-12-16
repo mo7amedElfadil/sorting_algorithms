@@ -12,12 +12,12 @@ void cocktail_sort_list(listint_t **list)
 	listint_t *cur = NULL, *max = NULL, *min = *list;
 	int swapped = 1;
 
-	if (!list || !*list || !(*list)->next)
+	if (!list || !*list || !(*list)->next || (*list)->prev)
 		return;
 	while (swapped)
 	{
 		swapped = 0, cur = min;
-		while (cur->next && cur != max)
+		while (cur->next && cur->next != max)
 		{
 			if (cur->n > cur->next->n)
 			{

@@ -43,11 +43,9 @@ void cocktail_sort_list(listint_t **list)
 				print_list(*list);
 			}
 			else
-			{
 				cur = cur->prev;
-			}
 		}
-		min = cur;
+		min = cur->next;
 	}
 }
 

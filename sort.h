@@ -63,6 +63,11 @@ void printing_sub(int *array, int lo, int hi, char *name);
 /****** Heap sort ******/
 void heap_sort(int *array, size_t size);
 void heapify(int *array, int n, int P, size_t size);
+
+/****** Radix sort ******/
+void radix_sort(int *array, size_t size);
+void bucket_sort(int *array, size_t size, int pwr);
+
 /*_____________ General Helper Functions _____________ */
 
 /****** Array Helpers ******/

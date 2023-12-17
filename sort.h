@@ -68,6 +68,12 @@ void heapify(int *array, int n, int P, size_t size);
 void radix_sort(int *array, size_t size);
 void bucket_sort(int *array, size_t size, int pwr);
 
+/****** Bitonic sort ******/
+void bitonic_sort(int *array, size_t size);
+void printing_bitonic(int *array, int lo, int len,
+		size_t size, char *name, int dir);
+void bit_sort(int *array, int lo, int hi, int dir, size_t size);
+void bitonic_merge(int *array, int lo, int len, int dir);
 /*_____________ General Helper Functions _____________ */
 
 /****** Array Helpers ******/

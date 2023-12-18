@@ -74,6 +74,13 @@ void printing_bitonic(int *array, int lo, int len,
 		size_t size, char *name, int dir);
 void bit_sort(int *array, int lo, int hi, int dir, size_t size);
 void bitonic_merge(int *array, int lo, int len, int dir);
+
+/****** Quick sort Hoare ******/
+void quick_sort_hoare(int *array, size_t size);
+int partition_hoare(int *array, int low, int high, size_t size);
+void quick_hoare(int *array, int low, int high, size_t size);
+
+
 /*_____________ General Helper Functions _____________ */
 
 /****** Array Helpers ******/

@@ -29,7 +29,7 @@ void quick_hoare(int *array, int low, int high, size_t size)
 	if (low >= high)
 		return;
 	n = partition_hoare(array, low, high, size);
-	quick_hoare(array, low, n - 1, size);
+	quick_hoare(array, low, n, size);
 	quick_hoare(array, n + 1, high, size);
 }
 
@@ -58,13 +58,9 @@ int partition_hoare(int *array, int low, int high, size_t size)
 		} while (array[i] < pivot);
 		do {
 			j--;
-		} while (array[j] >= pivot);
-		if (i >= j)
-		{
-			swap_values(&array[i], &array[high]);
-			print_array(array, size);
-			return (i);
-		}
+		} while (array[j] > pivot);
+		if (i > j)
+			return (j);
 		swap_values(&array[i], &array[j]);
 		print_array(array, size);
 	}

@@ -158,4 +158,10 @@ While the bubble sort moves the largest element to the end of the list on each i
 > **Best Case:** ![O(n)](https://wikimedia.org/api/rest_v1/media/math/render/svg/34109fe397fdcff370079185bfdb65826cb5565a) 
 > **Average Case:** ![O(n^{2})](https://wikimedia.org/api/rest_v1/media/math/render/svg/6cd9594a16cb898b8f2a2dff9227a385ec183392)
 
+### Counting Sort
+Counting sort is a sorting algorithm that sorts elements by counting the number of occurrences of each unique element in the array. The count is stored in an auxiliary array, and the sorting is done by mapping the count as an index of the auxiliary array. This algorithm is not a comparison-based sort and is efficient when the range of potential items in the input is reasonably small. It operates in O(n) time complexity, making it more efficient than comparison-based sorting algorithms like bubble sort or quick sort for specific inputs.
+  > **Worst-case:** ![O(n+k)](https://wikimedia.org/api/rest_v1/media/math/render/svg/cebd2e4442e56daa59f3fab79339f952122c29e8)
+> **Best Case:** ![O(n+k)](https://wikimedia.org/api/rest_v1/media/math/render/svg/cebd2e4442e56daa59f3fab79339f952122c29e8) 
+> **Average Case:** ![O(n+k)](https://wikimedia.org/api/rest_v1/media/math/render/svg/cebd2e4442e56daa59f3fab79339f952122c29e8)
+
 

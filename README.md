@@ -134,4 +134,13 @@ The algorithm chooses the smallest element from the unsorted portion, and exchan
 > **Best Case:** ![O(n^{2})](https://wikimedia.org/api/rest_v1/media/math/render/svg/6cd9594a16cb898b8f2a2dff9227a385ec183392) 
 > **Average Case:** ![O(n^{2})](https://wikimedia.org/api/rest_v1/media/math/render/svg/6cd9594a16cb898b8f2a2dff9227a385ec183392)
 
+### Quick Sort (Lomoto's Partitioning Scheme)
+![Sorting-quicksort-anim.gif](https://i.postimg.cc/PrdfksrD/Sorting-quicksort-anim.gif)
+ An element is selected as a pivot and used to partition the array, effectively placing it in its correct position in the sorted array.
+During partitioning, all elements smaller than the pivot are moved to its left, while all greater elements are moved to its right.
+The pivot is the value within the partitioned area that needs to be correctly positioned. Its position is then returned to determine where to split the sub-array.
+
+> **Worst-case:** ![O(n^{2})](https://wikimedia.org/api/rest_v1/media/math/render/svg/6cd9594a16cb898b8f2a2dff9227a385ec183392)
+> **Best Case:** ![O(n\log n)](https://wikimedia.org/api/rest_v1/media/math/render/svg/9d2320768fb54880ca4356e61f60eb02a3f9d9f1)
+> **Average Case:** ![O(n\log n)](https://wikimedia.org/api/rest_v1/media/math/render/svg/9d2320768fb54880ca4356e61f60eb02a3f9d9f1)
 

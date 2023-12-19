@@ -206,4 +206,13 @@ Bitonic sort is an algorithm for sorting binary sequences. It's an interesting a
 > **Best Case:** ![O(\log ^{2}(n))](https://wikimedia.org/api/rest_v1/media/math/render/svg/3504e9a0325bc9a82cfe4889213e0c3008dd1b54)
 > **Average Case:** ![O(\log ^{2}(n))](https://wikimedia.org/api/rest_v1/media/math/render/svg/3504e9a0325bc9a82cfe4889213e0c3008dd1b54)
 
+### Quick Sort (Hoare's Partitioning Scheme)
+![Quicksort-example.gif](https://i.postimg.cc/L51PKdHw/Quicksort-example.gif)
+The Hoare partition scheme is an original partition scheme developed by Tony Hoare, the inventor of Quick Sort. It works by initializing two indices that start at the ends of the array being partitioned, then move toward each other, until they detect an inversion: a pair of elements, one greater than the pivot, one smaller, that are in the wrong order relative to each other. The inverted elements are then swapped. When the indices meet, the algorithm stops and returns the final index.
+
+> **Worst-case:** ![O(n^{2})](https://wikimedia.org/api/rest_v1/media/math/render/svg/6cd9594a16cb898b8f2a2dff9227a385ec183392)
+> **Best Case:** ![O(n\log n)](https://wikimedia.org/api/rest_v1/media/math/render/svg/9d2320768fb54880ca4356e61f60eb02a3f9d9f1)
+> **Average Case:** ![O(n\log n)](https://wikimedia.org/api/rest_v1/media/math/render/svg/9d2320768fb54880ca4356e61f60eb02a3f9d9f1)
+  
+
 

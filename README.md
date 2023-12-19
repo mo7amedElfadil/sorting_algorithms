@@ -239,4 +239,8 @@ The Hoare partition scheme is an original partition scheme developed by Tony Hoa
 
 `./bubble`
 
-  
+## Contributing
+
+If you find issues, have suggestions for improvements, or want to add more examples, contributions are welcome! Fork the repository, make your changes, and submit a pull request.
+
+

@@ -106,4 +106,14 @@ Constants and smaller terms are usually ignored in Big O notation. So, if your o
 |11. Quick Sort - Hoare Partition scheme|`void quick_sort_hoare(int *array, size_t size);`|
 |12. Dealer|`void sort_deck(deck_node_t **deck);`|
 
+### Bubble Sort
+![Bubble-sort-example-300px.gif](https://i.postimg.cc/MKqNGzBW/Bubble-sort-example-300px.gif)
+  In Bubble Sort, elements are compared one by one and swapped if necessary. This process continues until no more swaps are needed.
+The algorithm requires an additional full pass without any swaps to confirm that it's sorted.
+Bubble Sort needs (n -1) iterations to go through the list. In each iteration, the largest element moves to the end of the list.
+
+> **Worst-case:** ![O(n^{2})](https://wikimedia.org/api/rest_v1/media/math/render/svg/6cd9594a16cb898b8f2a2dff9227a385ec183392)
+> **Best Case:** ![O(n)](https://wikimedia.org/api/rest_v1/media/math/render/svg/34109fe397fdcff370079185bfdb65826cb5565a) 
+> **Average Case:** ![O(n^{2})](https://wikimedia.org/api/rest_v1/media/math/render/svg/6cd9594a16cb898b8f2a2dff9227a385ec183392)
+
 

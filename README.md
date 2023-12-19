@@ -215,4 +215,9 @@ The Hoare partition scheme is an original partition scheme developed by Tony Hoa
 > **Average Case:** ![O(n\log n)](https://wikimedia.org/api/rest_v1/media/math/render/svg/9d2320768fb54880ca4356e61f60eb02a3f9d9f1)
   
 
+## Sorting a Deck of Cards
+![800px-Sorting-playing-cards-using-stable-sort-svg.png](https://i.postimg.cc/NFPVKHTZ/800px-Sorting-playing-cards-using-stable-sort-svg.png)
+  If we want to sort a deck of cards from Spades (♠), Hearts (♥), Clubs (♣), to Diamonds (♦), with each suit's cards ranked from Ace to King, we can do this by first sorting according to value, then suit. Any algorithm can be used for value sorting, but we should use a stable sorting algorithm for the suit to preserve the rank order.
+
+**Insertion sort** was selected for its stability as a sorting algorithm. To compare card values, a unique hashing function was developed. This function takes the card's value as a string and returns a number that corresponds to the card's expected order in a deck.
 

@@ -197,4 +197,13 @@ The algorithm organizes elements into buckets based on their radix, repeating th
 1- Find the largest element and determine its digit count. The count dictates the number of iterations.
 2- Sort elements based on their unit place digits, following the counting sort principle.
 
+### Bitonic Sort
+Bitonic sort is an algorithm for sorting binary sequences. It's an interesting algorithm because it's one of the few sorting algorithms that works well in parallel computing. The algorithm works by first forming a bitonic sequence (a sequence that first increases, then decreases or vice versa) and then repeatedly splitting it into two and sorting each half, one in increasing order and the other in decreasing order, until the entire sequence is sorted.
+
+**Bitonic Sort:** It divides the list into bitonic sequences.
+**Bitonic Merge:** It gradually merges these sequences into larger ones.
+  > **Worst-case:**  ![O(\log ^{2}(n))](https://wikimedia.org/api/rest_v1/media/math/render/svg/3504e9a0325bc9a82cfe4889213e0c3008dd1b54)
+> **Best Case:** ![O(\log ^{2}(n))](https://wikimedia.org/api/rest_v1/media/math/render/svg/3504e9a0325bc9a82cfe4889213e0c3008dd1b54)
+> **Average Case:** ![O(\log ^{2}(n))](https://wikimedia.org/api/rest_v1/media/math/render/svg/3504e9a0325bc9a82cfe4889213e0c3008dd1b54)
+
 

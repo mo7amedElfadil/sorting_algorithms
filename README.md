@@ -221,3 +221,22 @@ The Hoare partition scheme is an original partition scheme developed by Tony Hoa
 
 **Insertion sort** was selected for its stability as a sorting algorithm. To compare card values, a unique hashing function was developed. This function takes the card's value as a string and returns a number that corresponds to the card's expected order in a deck.
 
+## Usage
+
+
+  
+`git clone https://github.com/mo7amedElfadil/sorting_algorithms.git`
+
+  
+
+`cd sorting_algorithms`
+
+  
+
+`gcc -Wall -Wextra -Werror -pedantic  -std=gnu89 0-bubble_sort.c 0-main.c print_array.c -o bubble`
+
+  
+
+`./bubble`
+
+  

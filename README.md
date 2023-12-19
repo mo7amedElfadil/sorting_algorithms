@@ -149,4 +149,13 @@ The pivot is the value within the partitioned area that needs to be correctly po
  Shell sort is a variation of the insertion sort algorithm. It allows for the exchange of distant items by using a gap, which is the interval between items to be compared. The gap is progressively reduced until it becomes one.
 By partially sorting the array before applying insertion sort (when the gap equals one), Shell sort ensures that most elements are in their correct positions before doing the last insertion sort.
 
+### Cocktail Sort
+![Sorting-shaker-sort-anim.gif](https://i.postimg.cc/QxMLbXdf/Sorting-shaker-sort-anim.gif)
+ It's a variant of the bubble sort that traverses through the array in both directions.
+Each iteration consists of two stages. The first stage moves from left to right, swapping any values that are in the wrong order. The second stage operates in the opposite direction, starting from the point where the last swap occurred (the largest element) and moving back to the beginning of the array, swapping values where necessary.
+While the bubble sort moves the largest element to the end of the list on each iteration, the cocktail shaker sort moves both the smallest and the largest elements to their respective ends of the list with each iteration.
+> **Worst-case:** ![O(n^{2})](https://wikimedia.org/api/rest_v1/media/math/render/svg/6cd9594a16cb898b8f2a2dff9227a385ec183392)
+> **Best Case:** ![O(n)](https://wikimedia.org/api/rest_v1/media/math/render/svg/34109fe397fdcff370079185bfdb65826cb5565a) 
+> **Average Case:** ![O(n^{2})](https://wikimedia.org/api/rest_v1/media/math/render/svg/6cd9594a16cb898b8f2a2dff9227a385ec183392)
+
 

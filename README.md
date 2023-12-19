@@ -37,3 +37,35 @@ The efficiency of these algorithms is often represented using Big O notation. Th
 For instance, the time complexity of Bubble Sort in the worst-case scenario is O(n^2), where 'n' is the number of items to be sorted. This implies that doubling the number of items would quadruple the sorting time. Conversely, algorithms like Merge Sort and Heap Sort, which have a time complexity of O(n log n), are more efficient for larger lists.
   
 
+## Sorting Algorithms
+
+
+  
+
+### Big Oh Notation
+
+****Big O notation is a relative representation of the complexity of an algorithm.****
+
+  
+
+The big O notation is deliberate and gives a rough estimation of how slow or fast an algorithm can be, so you don’t care about the smaller order terms.
+
+  
+
+It also allows you to describe the order or an algorithm’s running time in ****upper bound**** (worst case scenario)
+
+  
+
+****Evaluation of time complexity of an algorithm:****
+
+  
+
+- ****Identify the basic operations:**** These are the operations that directly impact the time complexity, such as comparisons in a sorting algorithm.
+
+- ****Count the operations:**** Determine how the count of these operations grows with the size of the input.
+
+- ****Express in Big O notation:**** Once you know how the operation count grows, you can express this growth rate in Big O notation. For example, if the operation count grows linearly with the input size, the time complexity is O(n).
+
+  
+
+Constants and smaller terms are usually ignored in Big O notation. So, if your operation count is 3n^2 + 2n + 1, the time complexity would be O(n^2).

@@ -125,4 +125,13 @@ As the algorithm iterates, it builds a sorted list. During this process, it shif
 > **Best Case:** ![O(n)](https://wikimedia.org/api/rest_v1/media/math/render/svg/34109fe397fdcff370079185bfdb65826cb5565a) 
 > **Average Case:** ![O(n^{2})](https://wikimedia.org/api/rest_v1/media/math/render/svg/6cd9594a16cb898b8f2a2dff9227a385ec183392)
 
+### Selection Sort
+![Selection-Sort-Animation.gif](https://i.postimg.cc/15VnfZ1j/Selection-Sort-Animation.gif)
+  We begin sorting with a sorted list containing zero elements and a completely unsorted one.
+
+The algorithm chooses the smallest element from the unsorted portion, and exchanges it with the first element of the unsorted list. This action effectively shifts the boundary of the sublists one element to the right.
+> **Worst-case:** ![O(n^{2})](https://wikimedia.org/api/rest_v1/media/math/render/svg/6cd9594a16cb898b8f2a2dff9227a385ec183392)
+> **Best Case:** ![O(n^{2})](https://wikimedia.org/api/rest_v1/media/math/render/svg/6cd9594a16cb898b8f2a2dff9227a385ec183392) 
+> **Average Case:** ![O(n^{2})](https://wikimedia.org/api/rest_v1/media/math/render/svg/6cd9594a16cb898b8f2a2dff9227a385ec183392)
+
 

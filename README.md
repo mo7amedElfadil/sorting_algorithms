@@ -179,4 +179,13 @@ The process creates N sublists, and repeatedly merging these sorted sublists eve
 > **Best Case:** ![O(n\log n)](https://wikimedia.org/api/rest_v1/media/math/render/svg/9d2320768fb54880ca4356e61f60eb02a3f9d9f1)
 > **Average Case:** ![O(n\log n)](https://wikimedia.org/api/rest_v1/media/math/render/svg/9d2320768fb54880ca4356e61f60eb02a3f9d9f1)
 
+### Heap Sort
+![Sorting-heapsort-anim.gif](https://i.postimg.cc/GpxzVyMG/Sorting-heapsort-anim.gif)
+Heap sort is a comparison-based sorting algorithm that uses a binary heap data structure. It works by visualizing the elements of the array as a nearly complete binary tree and then applying a heap data structure to sort the array. The process involves building a Max Heap from the input data, where the largest item is the root. The largest item is then moved to the end of the sorted array by swapping it with the last item in the unsorted part of the array. The heap is then reduced by one element, and heapify is run again to bring the largest item to the root. This process is repeated until the entire array is sorted.
+**To create a maxheap:**  start from the middle, and perform swaps with children nodes and vice versa, in the same way as insertion sort.
+
+**Extraction Phase:**  this is done by swapping the root with the smallest element of the heap hat needs replacement, and then bubble and fix the heap.
+> **Worst-case:**  ![O(n\log n)](https://wikimedia.org/api/rest_v1/media/math/render/svg/9d2320768fb54880ca4356e61f60eb02a3f9d9f1)
+> **Best Case:** ![O(n\log n)](https://wikimedia.org/api/rest_v1/media/math/render/svg/9d2320768fb54880ca4356e61f60eb02a3f9d9f1)
+> **Average Case:** ![O(n\log n)](https://wikimedia.org/api/rest_v1/media/math/render/svg/9d2320768fb54880ca4356e61f60eb02a3f9d9f1)
 

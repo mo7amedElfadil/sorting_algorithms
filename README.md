@@ -243,4 +243,8 @@ The Hoare partition scheme is an original partition scheme developed by Tony Hoa
 
 If you find issues, have suggestions for improvements, or want to add more examples, contributions are welcome! Fork the repository, make your changes, and submit a pull request.
 
+## License
 
+This repository is licensed under the MIT License - see the LICENSE file for details.
+
+Happy coding and happy learning!

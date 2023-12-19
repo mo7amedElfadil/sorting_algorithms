@@ -164,4 +164,19 @@ Counting sort is a sorting algorithm that sorts elements by counting the number 
 > **Best Case:** ![O(n+k)](https://wikimedia.org/api/rest_v1/media/math/render/svg/cebd2e4442e56daa59f3fab79339f952122c29e8) 
 > **Average Case:** ![O(n+k)](https://wikimedia.org/api/rest_v1/media/math/render/svg/cebd2e4442e56daa59f3fab79339f952122c29e8)
 
+### Merge Sort
+![Merge-sort-example-300px.gif](https://i.postimg.cc/m2nnyCqr/Merge-sort-example-300px.gif)
+Merge sort involves dividing the array into smaller elements and then merging these sorted parts together.
+This is achieved recursively by continuously halving the array until it can no longer be divided.
+The process creates N sublists, and repeatedly merging these sorted sublists eventually results in one final ordered sublist.
+
+**Splitting:**  This is done recursively until we reach a base case, which is a list of one item.
+**Merging:**  The sorted list is placed in a second list. Elements are compared from list A and are sorted into list B. Both lists are then merged from B to A at the next level of recursion.
+
+
+
+> **Worst-case:**  ![O(n\log n)](https://wikimedia.org/api/rest_v1/media/math/render/svg/9d2320768fb54880ca4356e61f60eb02a3f9d9f1)
+> **Best Case:** ![O(n\log n)](https://wikimedia.org/api/rest_v1/media/math/render/svg/9d2320768fb54880ca4356e61f60eb02a3f9d9f1)
+> **Average Case:** ![O(n\log n)](https://wikimedia.org/api/rest_v1/media/math/render/svg/9d2320768fb54880ca4356e61f60eb02a3f9d9f1)
+
 

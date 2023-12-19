@@ -189,3 +189,12 @@ Heap sort is a comparison-based sorting algorithm that uses a binary heap data s
 > **Best Case:** ![O(n\log n)](https://wikimedia.org/api/rest_v1/media/math/render/svg/9d2320768fb54880ca4356e61f60eb02a3f9d9f1)
 > **Average Case:** ![O(n\log n)](https://wikimedia.org/api/rest_v1/media/math/render/svg/9d2320768fb54880ca4356e61f60eb02a3f9d9f1)
 
+### Radix Sort
+Radix sort is a non-comparative sorting algorithm. It sorts data with integer keys by grouping keys according to the individual digits, which share the same significant position and value. Usually, the radix is base 10, but it can be any integer.
+The algorithm organizes elements into buckets based on their radix, repeating this process for each digit.
+
+**The steps are as follows:**
+1- Find the largest element and determine its digit count. The count dictates the number of iterations.
+2- Sort elements based on their unit place digits, following the counting sort principle.
+
+

@@ -86,3 +86,24 @@ Constants and smaller terms are usually ignored in Big O notation. So, if your o
 
 4. ****Stability****: If maintaining the relative order of equal elements is important, choose a stable sort like Merge Sort or Insertion Sort.
 
+
+## Algorithms Implemented in this Project
+
+  
+|     Tasks           |Prototypes                       |
+|----------------|-------------------------------|
+|0. Bubble sort|`void bubble_sort(int *array, size_t size);`            |
+|1. Insertion sort|`void insertion_sort_list(listint_t **list);`            |
+|2. Selection sort|`void selection_sort(int *array, size_t size);`|
+|3. Quick sort|`void quick_sort(int *array, size_t size);`|
+|4. Shell sort - Knuth Sequence|`void shell_sort(int *array, size_t size);`|
+|5. Cocktail shaker sort|`void cocktail_sort_list(listint_t **list);`|
+|6. Counting sort|`void counting_sort(int *array, size_t size);`|
+|7. Merge sort|`void merge_sort(int *array, size_t size);`|
+|8. Heap sort|`void heap_sort(int *array, size_t size);`|
+|9. Radix sort|`void radix_sort(int *array, size_t size);`|
+|10. Bitonic sort|`void bitonic_sort(int *array, size_t size);`|
+|11. Quick Sort - Hoare Partition scheme|`void quick_sort_hoare(int *array, size_t size);`|
+|12. Dealer|`void sort_deck(deck_node_t **deck);`|
+
+

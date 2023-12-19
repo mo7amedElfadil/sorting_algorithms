@@ -144,3 +144,9 @@ The pivot is the value within the partitioned area that needs to be correctly po
 > **Best Case:** ![O(n\log n)](https://wikimedia.org/api/rest_v1/media/math/render/svg/9d2320768fb54880ca4356e61f60eb02a3f9d9f1)
 > **Average Case:** ![O(n\log n)](https://wikimedia.org/api/rest_v1/media/math/render/svg/9d2320768fb54880ca4356e61f60eb02a3f9d9f1)
 
+### Shell Sort
+![Sorting-shellsort-anim.gif](https://i.postimg.cc/qR8r9QPQ/Sorting-shellsort-anim.gif)
+ Shell sort is a variation of the insertion sort algorithm. It allows for the exchange of distant items by using a gap, which is the interval between items to be compared. The gap is progressively reduced until it becomes one.
+By partially sorting the array before applying insertion sort (when the gap equals one), Shell sort ensures that most elements are in their correct positions before doing the last insertion sort.
+
+

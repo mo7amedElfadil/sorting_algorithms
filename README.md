@@ -116,4 +116,13 @@ Bubble Sort needs (n -1) iterations to go through the list. In each iteration, t
 > **Best Case:** ![O(n)](https://wikimedia.org/api/rest_v1/media/math/render/svg/34109fe397fdcff370079185bfdb65826cb5565a) 
 > **Average Case:** ![O(n^{2})](https://wikimedia.org/api/rest_v1/media/math/render/svg/6cd9594a16cb898b8f2a2dff9227a385ec183392)
 
+### Insertion Sort
+![Insertion-sort-example-300px.gif](https://i.postimg.cc/QdRqHqzp/Insertion-sort-example-300px.gif)
+In Insertion Sort, we iterate through the list, taking one element at a time. We compare it with the element on its left. If it's not in order, we remove it from the list, find its correct location in the sorted part of the list, and insert it there.
+
+As the algorithm iterates, it builds a sorted list. During this process, it shifts all larger values up to make room and inserts the unsorted element in its correct position.
+> **Worst-case:** ![O(n^{2})](https://wikimedia.org/api/rest_v1/media/math/render/svg/6cd9594a16cb898b8f2a2dff9227a385ec183392)
+> **Best Case:** ![O(n)](https://wikimedia.org/api/rest_v1/media/math/render/svg/34109fe397fdcff370079185bfdb65826cb5565a) 
+> **Average Case:** ![O(n^{2})](https://wikimedia.org/api/rest_v1/media/math/render/svg/6cd9594a16cb898b8f2a2dff9227a385ec183392)
+
 
